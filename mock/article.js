@@ -17,7 +17,7 @@ for (let i = 0; i < count; i++) {
     content: baseContent,
     forecast: '@float(0, 100, 2, 2)',
     importance: '@integer(1, 3)',
-    'type|1': ['CN', 'US', 'JP', 'EU'],
+    'type|1': ['DT','MO','IN','DE','OP','PO','SN','TX'],
     'status|1': ['publicado', 'borrador'],
     display_time: '@datetime',
     comment_disabled: true,
